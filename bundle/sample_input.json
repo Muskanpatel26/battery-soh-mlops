@@ -1,0 +1,14 @@
+[
+  {
+    "cycle":1.0,
+    "ambient_temperature":24.0,
+    "voltage_mean":3.5275462263,
+    "voltage_min":2.4721608435,
+    "voltage_max":4.1881959426,
+    "voltage_std":0.2356155545,
+    "current_mean":-1.954176196,
+    "current_std":0.3275552119,
+    "temperature_mean":31.7732852814,
+    "temperature_max":38.1018030968
+  }
+]

@@ -1,0 +1,9 @@
+.git
+__pycache__
+.pytest_cache
+*.ipynb
+*.csv
+*.log
+mlflow.db
+mlruns
+mlartifacts

@@ -1,0 +1,41 @@
+{
+  "model_name": "BatterySOH",
+  "model_version": "2",
+  "run_id": "06872c86448e4619a5cf55302b10efa0",
+  "registered_uri": "models:/BatterySOH/2",
+  "dataset_sha256": "adede40cc659fc16343d88da7a1b9251c818ebed0db81f48f61a213e9994382b",
+  "features": [
+    "cycle",
+    "ambient_temperature",
+    "voltage_mean",
+    "voltage_min",
+    "voltage_max",
+    "voltage_std",
+    "current_mean",
+    "current_std",
+    "temperature_mean",
+    "temperature_max"
+  ],
+  "split": {
+    "train": [
+      "B0005",
+      "B0006"
+    ],
+    "validation": [
+      "B0007"
+    ],
+    "test": [
+      "B0018"
+    ]
+  },
+  "rated_capacity_Ah": 2.0,
+  "validation_mae": 2.304606631858956,
+  "validation_baseline_mae": 8.051596577962938,
+  "test_metrics": {
+    "mae": 3.691969132299906,
+    "rmse": 4.124632252720366,
+    "r2": 0.7141642442202314
+  },
+  "prediction_time": "after_discharge",
+  "release_gate": "passed"
+}
