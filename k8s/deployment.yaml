@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/muskanpatel26/battery-soh-mlops:bootstrap
+          image: ghcr.io/muskanpatel26/battery-soh-mlops:5937df0ca74f904a5866ddd1ec390a1c0ef01990
 
           ports:
             - containerPort: 8000
